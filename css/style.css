@@ -1,0 +1,324 @@
+
+/*----Techical----*/
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Smokum&display=swap');
+body{font-family: 'Smokum', cursive;}
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+}
+/*----/Techical----*/
+.workplace_position{
+   padding: 100px 0;
+   background: linear-gradient(45deg, #fff1eb, #ace0f9);
+}
+/*----Wheels---*/
+.wheel_back{
+   display: inline-block;
+   transform: scale(1.6) translate(20px, -60px);
+}
+.wheel__body{
+   width: 80px;
+   height: 80px;
+   background-color: rgb(83, 83, 83);
+   border-radius: 50%;
+}
+.wheel-tire_position{
+   width: 58px;
+   height: 58px;
+   background-color: rgb(41, 39, 39);
+   border-radius: 50%;
+   transform: translate(18%,20%);
+}
+.wheel-disc_position{
+   background-color: rgb(204, 197, 197);
+   width: 49px;
+   height: 49px;
+   border-radius: 50%;
+   transform: translate(9%,9%);
+}
+.wheel-disc__item-one{
+   width: 50px;
+   height: 5px;
+   background-color: rgb(31, 29, 29);
+   transform: translate(0, 22px) rotate(20deg);
+}
+.wheel-disc__item-two{
+   width: 50px;
+   height: 5px;
+   background-color: rgb(31, 29, 29);
+   transform: translate(0, 17px) rotate(110deg);
+}
+.wheel-disc__item-three{
+   width: 50px;
+   height: 5px;
+   background-color: rgb(31, 29, 29);
+   transform: translate(0, 12px) rotate(65deg);
+}
+.wheel-disc__item-four{
+   width: 50px;
+   height: 5px;
+   background-color: rgb(31, 29, 29);
+   transform: translate(0, 8px) rotate(-25deg);
+}
+.wheel-disc-element_position{
+   width: 13px;
+   height: 13px;
+   border-radius: 50%;
+   background-color: rgb(255, 251, 251);
+   position: relative;
+   z-index: 16;
+   transform: translate(19px, -1px);
+}
+.wheel-disc-element__item{
+   font-size: 12px;
+   text-align: center;
+   display: inline-block;
+   transform: translate(4px, -4px);
+}
+/*----/Wheels---*/
+/*----Backside---*/
+.back-side_position{
+   width: 170px;
+   height: 230px;
+   background-color: rgb(36, 35, 35);
+   margin: 40px 0 0 550px;
+   
+}
+.stepney_position{
+   width: 70px;
+   height: 135px;
+   background-color: rgb(51, 50, 50);
+   transform: translate(155px, 45px);
+   border-radius: 8px;
+   border: 1px solid rgb(44, 43, 43);
+}
+.stepney__item{
+   width: 70px;
+   height: 115px;
+   background-color: rgb(51, 50, 50);
+   transform: translate(8px, 7px);
+   border-radius: 22px;
+   
+}
+.back-side__bamper{
+   width: 60px;
+   height: 30px;
+   background-color: rgb(36, 35, 35);
+   transform: translate(120px, 70px);
+   border-radius: 3px;
+   border-right: 2px solid black;
+}
+.back-side__window{
+   width: 135px;
+   height: 100px;
+   background-color: rgb(105, 103, 103);
+   transform: translate(10px, -150px) skew(6deg);
+   border: 3px solid black;
+   border-radius: 10px;
+}
+.back-side__element{
+   width: 140px;
+   height: 6px;
+   background-color: rgb(94, 88, 88);
+   border-radius: 2px;
+   transform: translate(8px, -100px);
+}
+.back-side__spoiler{
+   width: 50px;
+   height: 23px;
+   background-color: rgb(59, 58, 58);
+   border-top-left-radius: 6px;
+   transform: skew(-40deg) translate(-115px, -290px);
+}
+.back-side__lamp{
+   width: 7px;
+   height: 19px;
+   background-color: rgb(170, 46, 46);
+   border: 1px solid black;
+   transform: translate(165px, -110px);
+}
+/*----/Backside---*/
+
+/*----Mediumside---*/
+
+.medium-side_position{
+   width: 250px;
+   height: 230px;
+   background-color: rgb(36, 35, 35);
+   transform: translate(300px, -230px);
+   border-top-left-radius: 60px;
+   position: relative;
+   z-index: 3;
+}
+.medium-side__window-two{
+   width: 105px;
+   height: 100px;
+   background-color: rgb(105, 103, 103);
+   border: 3px solid black;
+   border-radius: 10px;
+   transform: translate(4px, 4px);
+}
+.medium-side-door-two{
+   background-color: rgb(36, 35, 35);
+   width: 120px;
+   height: 210px;
+   transform: translate(130px, 10px);
+   border: 2px solid black;
+   border-bottom-right-radius: 30px;
+}
+.medium-side__element-two{
+   width: 60px;
+   height: 6px;
+   background-color: rgb(94, 88, 88);
+   border-radius: 2px;
+   transform: translate(10px, 53px);
+}
+.medium-side__handle-two{
+   width: 20px;
+   height: 6px;
+   background-color: rgb(0, 0, 0);
+   border-top-left-radius: 3px;
+   transform: translate(87px, 47px);
+}
+.medium-side-door-one{
+   background-color: rgb(36, 35, 35);
+   width: 120px;
+   height: 210px;
+   border: 2px solid black;
+   transform: translate(5px, -200px);
+   border-top-left-radius: 50px;
+}
+.medium-side__window-one{
+   width: 110px;
+   height: 100px;
+   background-color: rgb(105, 103, 103);
+   border: 3px solid black;
+   border-radius: 10px;
+   border-top-left-radius: 50px;
+   transform: translate(3px, 4px);
+}
+.medium-side__element-one{
+   width: 75px;
+   height: 6px;
+   background-color: rgb(94, 88, 88);
+   border-radius: 2px;
+   transform: translate(7px, 53px);
+}
+.medium-side__handle-one{
+   width: 20px;
+   height: 6px;
+   background-color: rgb(0, 0, 0);
+   border-top-left-radius: 3px;
+   transform: translate(90px, 47px);
+}
+/*----/Mediumside---*/
+
+/*----FrontSide---*/
+.front-side_position{
+   width: 180px;
+   height: 110px;
+   background-color: rgb(36, 35, 35);
+   transform: translate(140px, -336px) rotate(-3deg);
+   
+}
+.wheel_front{
+   transform: scale(1.6) translate(52px, 52px);
+   position: relative;
+   z-index: 25;
+   
+}
+.front-side__bamper{
+   width: 60px;
+   height: 34px;
+   background-color: rgb(36, 35, 35);
+   position: relative;
+   z-index: 0;
+   transform: translate(-12px, -3px) rotate(3deg);
+   border-left: 2px solid black;
+   border-top: 2px solid black;
+   border-radius: 3px;
+}
+.front-side-lamp_position{
+   width: 39px;
+   height: 46px;
+   background-color: rgb(26, 25, 24);
+   border-radius: 6px;
+   transform: translate(-9px, -114px) rotate(3deg);
+   padding-top: 4px;
+}
+.front-side-lamp__item{
+   width: 34px;
+   height: 37px;
+   background-color: rgb(243, 223, 39);
+   border-radius: 50%;
+   border: 1px solid black;
+}
+.front-side__element{
+   width: 89px;
+   height: 6px;
+   background-color: rgb(94, 88, 88);
+   border-radius: 2px;
+   transform: translate(44px, -119px) rotate(3deg);
+}
+.front-side__nameplate{
+   font-family: 'Times New Roman', Times, serif;
+   transform: translate(145px, -109px) rotate(3deg);
+   font-size: 10px;
+}
+/*----/FrontSide---*/
+
+/*----Lesson 13-----*/
+
+.car_position{
+   animation-duration: 6s;
+   animation-name: carmove;
+   animation-iteration-count: infinite;
+   animation-delay: 0.5s;
+   animation-timing-function: linear;
+   position: relative;
+   z-index: 23;
+}
+.wheel__body{
+   animation-duration: 1.8s;
+   animation-name: erondondon;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+}
+
+@keyframes carmove{
+   0%{
+      transform: translate(100%, 37%) scale(0.8) rotate(-1deg);
+   }
+   100%{
+      transform: translate(-100%, 37%);
+   }
+}
+@keyframes erondondon{
+   0%{
+      transform: rotate(0deg);
+   }
+   100%{
+      transform: rotate(-360deg);
+   }
+}
+.road_position{
+   width: 100%;
+   height: 140px;
+   border: 1px solid black;
+   background-image: linear-gradient(
+  265deg,
+  hsl(0deg 0% 39%) 0%,
+  hsl(48deg 0% 41%) 12%,
+  hsl(48deg 0% 43%) 32%,
+  hsl(48deg 1% 46%) 50%,
+  hsl(48deg 1% 48%) 65%,
+  hsl(48deg 1% 50%) 76%,
+  hsl(48deg 1% 52%) 85%,
+  hsl(48deg 1% 55%) 91%,
+  hsl(48deg 2% 57%) 95%,
+  hsl(48deg 2% 59%) 98%,
+  hsl(48deg 3% 62%) 100%
+);
+   transform: translate(0px, -60px);
+}
